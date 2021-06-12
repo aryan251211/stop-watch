@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     seconds = (input.runningTime() - timer) / 1000
-    basic.showNumber(timer)
+    basic.showNumber(seconds)
 })
 let seconds = 0
 let timer = 0
